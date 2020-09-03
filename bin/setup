@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo 'Setting up...'
+
+bin/build
+
+echo 'Done.'
+echo ''
+echo 'bin/test to run tests'
+echo 'bin/serve to serve app'

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+docker build -t ${USER}/rest-example-app:1.0.0 .  # build the docker image
